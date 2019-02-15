@@ -1,0 +1,31 @@
+body{
+	background: green;
+}
+.maindiv{
+	display: flex;
+	justify-content: space-around;
+	margin:15%;
+	background: blue;
+}
+.subdiv1{
+	background: bisque;
+	margin:4%;
+	text-align: center;
+	width: 25%;
+	border-radius: 5%;
+	height: 60%;
+
+}
+img{
+	border-radius: 5%;
+}
+.subdiv2{
+	background: red;
+	margin: 4%;
+	height: 25%;
+	width: 50%;
+	text-align: left;
+	box-shadow: 4px 4px 4px 4px;
+	border-radius:5%;
+
+}

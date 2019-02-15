@@ -1,0 +1,75 @@
+body: #B59EF2
+main: #CEB6F0
+sub: #F0CBB6
+
+
+
+PHASE-1.1:
+types of css:
+inline
+internal	
+external
+
+
+selectors:
+universal
+id
+class
+
+<hr> for horizontal line
+border=2
+
+ordered list <ol> within <list>
+
+PHASE-1.2:
+ Topics:
+	structure of json(Java Script Object Notation){key,value}
+	AJAX framework(Asyncronous JavaScript XML(XML+JS))
+	dom mamupulations(Documnet Object Model)
+	javascript
+
+
+client---->Server
+	1.connection
+	2.request initialised
+	3.request accomplished
+	4.Rewuest is given to server
+	5.Client program
+	6.temination
+
+
+GitHub Project Push,Commands:
+1.git clone <url>
+2.git status
+3.git add --all
+4.git status
+5.git commit -m
+6.git push origin master -u
+
+
+
+
+-Requirements for PWA:
+ Indexed DB(to store data)
+ Service Worker(req. to run in offline mode)
+ Manifest file(to create icon in tab section)
+ 
+ -Indexed DB(.js)
+  A database can be CURD(Created Updates Read Deleted)
+  Secured and Fast retrieving
+  -steps to IDB
+    1.Browser Compatibility
+    2.Creting database
+    3.Creating Object Store
+    4.Performing CURD operations
+ -Service Worker(.js)
+   -Steps
+    1.Registering theservice Worker
+    2.Installing the service worker
+    3.Storing the cache with help of Fetch API
+    4.Upadting the service worker
+ -Manifest File().json
+  -Steps
+    1.Creating app icons
+     2.Integrating icons to our web page
+    

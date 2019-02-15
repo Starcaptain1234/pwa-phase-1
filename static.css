@@ -1,0 +1,140 @@
+/*Desktop View*/
+body{
+	background: #B59EF2;
+}
+.maindiv{
+	display: flex;
+	justify-content: space-around;
+	margin:3%;
+	background: #CEB6F0;
+	border-radius: 5%;
+}
+.subdiv1{
+	background: #F0CBB6;
+	margin-left: 4%;
+	margin-right: 2%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	text-align: center;
+	width: 25%;
+	border-radius: 5%;
+	height: 70%;
+	box-shadow: 4px 4px 4px 4px;
+
+}
+img{
+	border-radius: 5%;
+	margin-top: 5%;
+}
+.subdiv2{
+	padding: 2%;
+	background: #F0CBB6;
+	margin-left: 2%;
+	margin-right: 4%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	width: 50%;
+	text-align: left;
+	box-shadow: 4px 4px 4px 4px;
+	border-radius:5%;
+
+
+}
+/*Tablet View*/
+@media screen and (min-width: 650px) and (max-width: 800px) {
+table{
+	margin-left: 5%;
+}
+body{
+	background: #B59EF2;
+}
+.maindiv{
+	display: flex;
+	justify-content: space-around;
+	margin:2%;
+	background: #CEB6F0;
+	border-radius: 5%;
+}
+.subdiv1{
+	background: #F0CBB6;
+	margin-left: 4%;
+	margin-right: 2%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	text-align: center;
+	width: 30%;
+	border-radius: 5%;
+	height: 70%;
+	box-shadow: 4px 4px 4px 4px;
+
+}
+img{
+	border-radius: 5%;
+	margin-top: 5%;
+	width: 50%;
+	height: 70%;
+}
+.subdiv2{
+	padding: 2%;
+	background: #F0CBB6;
+	margin-left: 2%;
+	margin-right: 4%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	width: 50%;
+	text-align: left;
+	box-shadow: 4px 4px 4px 4px;
+	border-radius:5%;
+	padding-right: 2%;
+
+
+}
+table{
+	margin-left: 5%;
+}
+}
+/*Mobile View*/
+@media screen and (min-width: 370px) and (max-width: 649px) {
+body{
+	background: #B59EF2;
+}
+.maindiv{
+	display: inline-block;
+	justify-content: space-around;
+	margin:2%;
+	width: 96%;
+	background: #CEB6F0;
+	border-radius: 5%;
+}
+.subdiv1{
+	background: #F0CBB6;
+	margin:2%;
+	text-align: center;
+	width: 94%;
+	border-radius: 5%;
+	height: 70%;
+	box-shadow: 4px 4px 4px 4px;
+
+}
+img{
+	border-radius: 5%;
+	margin-top: 5%;
+	width: 30%;
+	height: 50%;
+}
+.subdiv2{
+	padding: 2%;
+	background: #F0CBB6;
+	margin:2%;
+	width: 90%;
+	text-align: left;
+	box-shadow: 4px 4px 4px 4px;
+	border-radius:5%;
+	padding: 2%;
+
+}
+table{
+	margin-left: 5%;
+	padding: 2%;
+}
+}	
